@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-Before deploying Active Directory, we'll need to install 2 VMs on Azure, one will be a Windows Server for the domain controller and one will be Windows Pro machine as a client. We can name the server machine DC-1 and the client machine Client-1. 
+Before deploying Active Directory, we'll need to install 2 VMs on Azure, one will be a Windows Server for the domain controller and one will be Windows Pro machine as a client. We can name the server machine DC-1 and the client machine Client-1. We also need to make sure that both of these machines are on the same virtual network.
   
 Once that's done, we'll log into DC-1.
 </p>
