@@ -91,7 +91,7 @@ Log back into Client-1 as Jane, be sure to do mydomain.com\ before the username.
 <img src="https://github.com/user-attachments/assets/af138c07-f43f-490c-bc8a-3199ba175601" height="80%" width="80%" alt="client joined domain"/>
 </p>
 <p>
-You will have to restart Client-1 for these changes to take effect. So do that and go back to DC-1. We'll verify if Client-1 has joined the domain. While still on Active Directory Users and Computers, click on mydomain.com and the Computers and you should Client-1 there.
+You will have to restart Client-1 for these changes to take effect. So do that and go back to DC-1. We'll verify if Client-1 has joined the domain. While still on Active Directory Users and Computers, click on mydomain.com and the Computers and you should see Client-1 there.
 </p>
 <br />
 
