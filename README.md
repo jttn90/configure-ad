@@ -58,7 +58,7 @@ In the deployment configuration, click on Add a new forest and input mydomain.co
 <p>
 Click next and where it says to put in Directory services restore mode password, you can put in anything you like as it is unlikely we will use it. Continue with the configuration and you will be automatically signed out of the machine as Active Directory completes installation.
 
-Now, we'll try to log into our Client-1 machine. If you try to login with your usual credentials, it will fail since no domain is specified as we just set up DC-1 as the domain controller. So to log into the machine, we need specify the domain like so: mydomain.com\(your username), and then enter the password. 
+Now, we'll try to log into our Client-1 machine. If you try to login with your usual credentials, it will fail since no domain is specified as we just set up DC-1 as the domain controller. So to log into the machine, we need specify the domain like so: mydomain.com\\(your username), and then enter the password. 
 
 Once that's confirmed, we jump back log back into the DC-1 machine. The next step is to create a Domain admin user within the domain. The person will be able to administer the entire domain of users and is quite an important task. So we can click on Start -> Windows Administrative Tools -> Active Directory Users and Computers. Now right click on mydomain.com -> New -> Organizational Unit (OU).
 </p>
